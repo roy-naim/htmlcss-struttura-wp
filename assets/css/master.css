@@ -1,0 +1,25 @@
+body {
+  height: 1000px;
+}
+
+body.debug div, body.debug header, body.debug main, body.debug footer {
+  height: 50%;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class^="col-"] {
+  float: left;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.bg-pink {
+  background-color: #E57AE6;
+}
