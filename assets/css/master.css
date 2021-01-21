@@ -1,38 +1,44 @@
-body {
-  background-color: red;
-}
 
 .container {
   max-width: 1420px;
   margin: 0 auto;
-  border: 1px solid red;
-  height: 50px;
+  background-color: #E57AE6;  /*pink color*/
+  height: 100px;
 }
 
-header, footer {
+header {
   height: 100px;
   width: 100%;
-  border: 1px solid blue;
-  margin-bottom: 50px
+  /*border: 1px solid blue;*/
+  margin-bottom: 25px
 }
+
+footer {
+ height: 50px;
+ width: 100%;
+ /*border: 1px solid blue;*/
+}
+
 .first-content {
   height: 300px;
   width: 100%;
-  border: 1px solid green;
-  margin-bottom: 50px;
+  background-color: #E1D67A; /* yellow*/
+  /*border: 1px solid green;*/
+  margin-bottom: 25px;
 }
 
 main {
   height: 500px;
   width: 100%;
-  border: 1px solid green;
-  margin-bottom: 50px;
+  /*border: 1px solid green;*/
+  background-color: #0186FD; /* blue*/
+  margin-bottom: 10px;
 }
 
 .top-main-block {
-  height: 100px;
+  height: 70px;
   width: 100%;
-  background-color: #E57AE6;
+  background-color: #ABCFE8; /* cyan*/
   margin-bottom: 30px;
 }
 
@@ -44,9 +50,30 @@ main {
 
 .col-1 {
   float: left;
-  width: 20%;
-  background-color: #E57AE6;
-  height: 100px;
-  margin-right: 5%;
-  height: 350px;
+  width: 18%;
+  background-color: #ABCFE8; /* cyan*/
+  margin-right: 2%;
+  height: 370px;
 }
+
+.col-2 {
+  float: left;
+  width: 60%;
+  background-color: #ABCFE8; /* cyan*/
+  height: 370px;
+}
+
+.col-3 {
+  float: left;
+  width: 18%;
+  background-color: #ABCFE8; /* cyan*/
+  margin-left: 2%;
+  height: 370px;
+}
+
+.last-content {
+  height: 50px;
+  width: 100%;
+  background-color: #8901FF;  /*purple color*/
+  /*border: 1px solid green;*/
+  margin-bottom: 50px;
