@@ -1,9 +1,35 @@
-body {
-  height: 1000px;
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+  border: 1px solid red;
+  height: 50px;
 }
 
-body.debug div, body.debug header, body.debug main, body.debug footer {
-  height: 50%;
+header, footer {
+  height: 100px;
+  width: 100%;
+  border: 1px solid blue;
+  margin-bottom: 50px
+}
+.first-content {
+  height: 300px;
+  width: 100%;
+  border: 1px solid green;
+  margin-bottom: 50px;
+}
+
+main {
+  height: 500px;
+  width: 100%;
+  border: 1px solid green;
+  margin-bottom: 50px;
+}
+
+.top-main-block {
+  height: 100px;
+  width: 100%;
+  background-color: #E57AE6;
+  margin-bottom: 30px;
 }
 
 .row:after {
@@ -12,14 +38,11 @@ body.debug div, body.debug header, body.debug main, body.debug footer {
   display: table;
 }
 
-[class^="col-"] {
+.col-1 {
   float: left;
-}
-
-.col-100 {
-  width: 100%;
-}
-
-.bg-pink {
+  width: 20%;
   background-color: #E57AE6;
+  height: 100px;
+  margin-right: 5%;
+  height: 350px;
 }
